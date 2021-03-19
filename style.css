@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  position: relative;
+}
+
+.nav-container {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 20px;
+  right: 20px;
+}
+
+.navbar-toggle {
+  width: 70px;
+  height: 70px;
+
+  margin-bottom: 10px;
+
+  background-color: black;
+  border-radius: 50%;
+}
+
+.navbar-toggle:focus {
+  outline: 0 !important;
+}
+
+.fa-bars {
+  width: 35px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+
+  padding: 50px;
+}
+
+.title {
+  width: 500px;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+p {
+  width: 380px;
+  line-height: 27px;
+}
+
+#apply-btn {
+  width: 220px;
+  height: 60px;
+  font-size: 15px;
+  letter-spacing: 5px;
+  border-radius: 50px;
+}
